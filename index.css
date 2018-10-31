@@ -1,0 +1,254 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+p {
+  font-size: 1rem;
+  font-family: 'Muli', sans-serif;
+}
+
+nav {
+  background-color: rgba(70,70,70,1);
+  padding: 1rem;
+}
+nav a {
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: .5rem 1rem;
+}
+.sign-up {
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 9999px;
+}
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .15s ease-in-out;
+}
+
+.sign-up:hover {
+  color: #000;
+  background-color: #fff;
+  transition: background-color .15s ease-in-out;
+}
+
+
+/*====================
+
+      BASE SYTLE
+
+======================*/
+
+body{
+  background-color:#CAC1B8;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;
+}
+img {
+  margin-bottom: 1.5rem;
+  height: 7.5rem;
+}
+h3{
+font-size: 1.5rem;
+}
+/*======================
+
+      HEADER STYLE
+
+=======================*/
+header{
+  display: table;
+  background-image: url("https://www.homeinfo.hu/images/stories/Epitkezes/szerkezet/20170428_az_epitkezes_folyamata1_1.jpg");
+  background-size: cover;
+  background-position: 70% center;
+  height: 93vh;
+  width:100%;
+  
+}
+.nameline{
+  font-size:5rem;
+  margin:2%;
+  color:white;
+  font-family: 'Great Vibes', cursive;
+ 
+}
+.headline {
+  font-size:2rem;
+  margin:2%;
+  color:white;
+  text-shadow: 0px 0px 50px red;
+  background-color:rgba(9, 2, 7, 0.5);
+  border-radius: 20px;
+  text-align:center;
+ 
+}
+
+.wrapper{
+  color:white;
+  display: table-cell;
+  vertical-align: bottom;
+  width:100vw;
+  text-align: center;
+}
+.line{
+  background-color:hsla(100,0%,0%,.6);
+  text-shadow: 2px 2px black;
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px white;
+}
+.programs, .questions{
+  background-color:hsla(100,0%,0%,.6);
+  color:#d2ba87;
+}
+.foot{
+  background-color:#606060;
+  color:white;
+}
+h1{
+  font-size:4rem;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+h2{
+  font-size:2rem;
+}
+.locations, .programs, .questions, .gifts, .questions, .contact{
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+}
+a{
+  color:#CAC1B8;
+  text-decoration: none;
+}
+a:hover{
+  color:yellow;
+}
+@media (max-width: 768px) {
+.headline {
+    text-transform: uppercase;
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    background: url('https://www.homeinfo.hu/images/stories/Epitkezes/szerkezet/20170428_az_epitkezes_folyamata1_1.jpg') no-repeat center/cover;
+  }
+   .line {
+    padding: 1.25rem;
+    border-radius: 30px;
+    width: 50%;
+    margin:auto;
+  }
+
+  .line .nameline {
+    font-size: 7rem;
+  }
+  .headline {
+    text-transform: uppercase;
+ 
+  }
+}
+/*========================
+
+        LOCATION STYLE
+
+=========================*/
+.l::after{
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+.locations{
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+h3{
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .l{
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+  .l::after {
+    display: none;
+  }
+}
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+.foot {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(70,70,70,1);
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+.foot-w {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+p {
+  margin-bottom: 0;
+}
+.foot small {
+  line-height: 1.5rem;
+}
+@media (min-width: 768px) {
+  foot {
+    min-height: 7vh;
+  }
+}
+/* =============================
+
+        NAV STYLES
+
+=============================*/
+
+
+.navbar-brand {
+  padding: 15px;
+}
+.navbar {
+   
+  text-align:center;
+}
+
+
+
+body {
+  font-family: "Lato";
+}
+
+
+
+/* =============================
+
+        CONTENT STYLES
+
+=============================*/
+h2{
+  text-align: center;
+}
+content p{
+ width: 60%;
+    margin: 1rem auto ;
+}
